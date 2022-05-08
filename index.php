@@ -11,7 +11,13 @@
     <title>PHP CRUD!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="container shadow m-5 p-3">
+        <form action="" method="post" class="d-flex justify-content-around">
+            <input class="form-control me-3" type="text" name="stdname" placeholder="Enter Name">
+            <input class="form-control me-3" type="number" name="stdreg" placeholder="Enter Reg Number">
+            <input class="btn btn-success" type="submit" value="Submit" name="btn">
+        </form>
+    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
